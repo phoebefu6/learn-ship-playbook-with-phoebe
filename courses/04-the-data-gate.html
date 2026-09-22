@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- social:start -->
+<meta name="description" content="Session 4 of 6. What a business holds decides what it can build. Three states per entity, the unlock table that ranks them, and how to tell a form change from a standing job before agreeing to either.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Learn with Phoebe">
+<meta property="og:title" content="The data gate - learn ship playbook with phoebe">
+<meta property="og:description" content="Session 4 of 6. A field the front desk already half-fills releases more than any brand-new data source on the board: 3 against 2, and one is a form change while the other is a job forever.">
+<meta property="og:url" content="https://phoebefu6.github.io/learn-ship-playbook-with-phoebe/courses/04-the-data-gate.html">
+<meta property="og:image" content="https://phoebefu6.github.io/learn-ship-playbook-with-phoebe/assets/og-cover.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The data gate - learn ship playbook with phoebe">
+<meta name="twitter:description" content="Session 4 of 6. Held, partly, not at all - and why the half-held entity is the most valuable position on the board.">
+<meta name="twitter:image" content="https://phoebefu6.github.io/learn-ship-playbook-with-phoebe/assets/og-cover.png">
+<!-- social:end -->
+<title>Session 4 · The data gate - learn ship playbook with phoebe</title>
+<link rel="stylesheet" href="../assets/style.css?v=1">
+</head>
+<body>
+
+<div class="toolbar">
+  <div class="wrap">
+    <span class="crumb"><a href="../index.html">learn-ship-playbook-with-phoebe</a> / Session 4 of 6</span>
+    <button class="btn" id="toggle-all" type="button">Expand all</button>
+    <button class="btn primary" id="zoom-toggle" type="button">Projector zoom: off</button>
+  </div>
+</div>
+
+<header class="masthead">
+  <div class="wrap">
+    <div class="eyebrow">Learn Ship Playbook with Phoebe · Session 4 of 6</div>
+    <h1>The <span class="accent">data gate</span></h1>
+    <p class="sub">The first gate is the only one on the bench that cannot be argued with: either the business holds what a case needs or it does not. Tonight that gate gets taken apart on its own, because underneath a simple yes or no there is a third state that does most of the damage. An entity held partly is in the schema, the query runs against it, and the answer comes back looking exactly like an answer. Tonight you learn to test which state you are actually in, to work out what finishing each entity would release, and to classify every gap as a form change, a pipeline change or a standing job before you agree to close it.</p>
+    <div class="chip-row">
+      <span class="chip level">🟠 Advanced</span>
+      <span class="chip audience">Bring your entity map from session 3</span>
+      <span class="chip audience">No code required</span>
+      <span class="chip time">45 min</span>
+    </div>
+    <div class="agenda">
+      <span class="a1" style="flex:1">0-3 · Welcome</span>
+      <span class="a2" style="flex:4">3-18 · Held, partly, not at all</span>
+      <span class="a3" style="flex:6">18-40 · Build-along: your entity map</span>
+      <span class="a4" style="flex:1">40-45 · Q&amp;A</span>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="section" id="intro">
+    <div class="section-kicker">
+      <span class="klabel">Part 0</span>
+      <h2>Where we start</h2>
+    </div>
+    <p class="lede">Session 3 ran both gates over twelve candidates at once and the headline result came out of the unlock table at the bottom of the bench. The entity that releases the most value on that board is not attached to any of the exciting cases. It is a free-text box the front desk fills in about a third of the time, and finishing it is a form change. Tonight is about why that keeps being true, and about the skill that turns it into a decision: telling the difference between a gap you can close once and a gap that becomes somebody's job forever.</p>
+
+    <div class="legend">
+      <span class="pill">🎫 Clear all three quiz questions to stamp your passport</span>
+      <span class="pill">Live = presented in the 45 minutes</span>
+      <span class="pill">Self-study = the full depth, after class</span>
+    </div>
+
+    <div class="callout win">
+      <p><strong>★ What you walk out with tonight.</strong> Your own entity map with every partial entity tested rather than assumed, a released-value figure against each gap, and each gap labelled form change, pipeline change or standing job. One of those labels is a headcount and you should know which before you nod at it.</p>
+    </div>
+  </section>
+
+  <section class="section" id="part-1">
+    <div class="section-kicker">
+      <span class="klabel">Part 1 · covers the three states</span>
+      <h2>Held, partly, not at all</h2>
+      <span class="tag concept">7 min live</span>
+    </div>
+    <p class="lede">Two of the three states are honest. Not held at all is visible to everybody: nobody thinks there are sensors on the machines. Held in full is fine and needs no conversation. The middle state is the one that quietly wastes quarters, and it is the state most organisations are in for the fields they care about most.</p>
+
+    <figure class="zoomable">
+      <svg viewBox="0 0 880 470" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Twelve data entities at the invented Ridgeline Fitness chain sorted into three bands by state: six held in full, three held partly, three not held at all. Each of the six incomplete entities is labelled with how it is incomplete and how much revenue fit finishing it would release.">
+        <style>
+          .s4aH { font: 800 12px Inter, sans-serif; fill: #3A2340; }
+          .s4aS { font: 400 11px Inter, sans-serif; fill: #655C6A; }
+          .s4aT { font: 800 12px Inter, sans-serif; fill: #FFFFFF; }
+          .s4aW { font: 400 10.5px Inter, sans-serif; fill: #F5F0F6; }
+          .s4aD { font: 800 12px Inter, sans-serif; fill: #3A2340; }
+          .s4aP { font: 400 10.5px Inter, sans-serif; fill: #655C6A; }
+          .s4aM { font: 400 10.5px Inter, sans-serif; fill: #4E2F55; }
+          .s4aN { font: 700 11px Inter, sans-serif; fill: #3A2340; }
+          .s4aG { font: 800 10px Inter, sans-serif; fill: #5F4A0D; }
+          .s4aC { font: 800 12px Inter, sans-serif; fill: #4E2F55; }
+        </style>
+
+        <text class="s4aH" x="30" y="24">TWELVE ENTITIES, THREE STATES</text>
+        <text class="s4aS" x="30" y="42">the middle band is the one that ships confident answers nobody can defend</text>
+
+        <rect x="30" y="56" width="820" height="92" rx="9" fill="#D6C7DA"/>
+        <text class="s4aD" x="46" y="80">6 · HELD IN FULL</text>
+        <text class="s4aM" x="46" y="99">the ordinary transactional records the chain already runs on</text>
+        <rect x="46" y="110" width="22" height="22" rx="5" fill="#FFFFFF" stroke="#6B4372"/>
+        <text class="s4aC" x="57" y="126" text-anchor="middle">✓</text>
+        <rect x="76" y="110" width="22" height="22" rx="5" fill="#FFFFFF" stroke="#6B4372"/>
+        <text class="s4aC" x="87" y="126" text-anchor="middle">✓</text>
+        <rect x="106" y="110" width="22" height="22" rx="5" fill="#FFFFFF" stroke="#6B4372"/>
+        <text class="s4aC" x="117" y="126" text-anchor="middle">✓</text>
+        <rect x="136" y="110" width="22" height="22" rx="5" fill="#FFFFFF" stroke="#6B4372"/>
+        <text class="s4aC" x="147" y="126" text-anchor="middle">✓</text>
+        <rect x="166" y="110" width="22" height="22" rx="5" fill="#FFFFFF" stroke="#6B4372"/>
+        <text class="s4aC" x="177" y="126" text-anchor="middle">✓</text>
+        <rect x="196" y="110" width="22" height="22" rx="5" fill="#FFFFFF" stroke="#6B4372"/>
+        <text class="s4aC" x="207" y="126" text-anchor="middle">✓</text>
+        <text class="s4aM" x="240" y="126">these clear the gate by definition, and cost no meeting time</text>
+
+        <rect x="30" y="160" width="820" height="132" rx="9" fill="#8A6A12"/>
+        <text class="s4aT" x="46" y="184">3 · HELD PARTLY, the dangerous band</text>
+        <text class="s4aW" x="46" y="202">in the schema, the query runs, and the answer looks like an answer</text>
+        <rect x="46" y="212" width="256" height="76" rx="8" fill="#F5F0F6" stroke="#D6C7DA"/>
+        <text class="s4aN" x="60" y="232">Cancellation reason</text>
+        <text class="s4aP" x="60" y="249">a free-text box the front desk</text>
+        <text class="s4aP" x="60" y="264">fills about a third of the time</text>
+        <text class="s4aG" x="60" y="281">releases 3, the most on the board</text>
+        <rect x="312" y="212" width="256" height="76" rx="8" fill="#F5F0F6" stroke="#D6C7DA"/>
+        <text class="s4aN" x="326" y="232">Member goals at intake</text>
+        <text class="s4aP" x="326" y="249">collected on paper at signup,</text>
+        <text class="s4aP" x="326" y="264">never keyed in anywhere</text>
+        <text class="s4aG" x="326" y="281">releases 2</text>
+        <rect x="578" y="212" width="256" height="76" rx="8" fill="#F5F0F6" stroke="#D6C7DA"/>
+        <text class="s4aN" x="592" y="232">Injury and incident log</text>
+        <text class="s4aP" x="592" y="249">a paper folder per site</text>
+        <text class="s4aG" x="592" y="281">releases 1</text>
+
+        <rect x="30" y="304" width="820" height="132" rx="9" fill="#4E2F55"/>
+        <text class="s4aT" x="46" y="328">3 · NOT HELD AT ALL, an honest state</text>
+        <text class="s4aW" x="46" y="346">everybody can see the sensors are not on the machines</text>
+        <rect x="46" y="356" width="256" height="76" rx="8" fill="#F5F0F6" stroke="#D6C7DA"/>
+        <text class="s4aN" x="60" y="376">Competitor pricing</text>
+        <text class="s4aP" x="60" y="393">nobody collects it, and it</text>
+        <text class="s4aP" x="60" y="408">would be a standing job</text>
+        <text class="s4aG" x="60" y="425">releases 2, the best new source</text>
+        <rect x="312" y="356" width="256" height="76" rx="8" fill="#F5F0F6" stroke="#D6C7DA"/>
+        <text class="s4aN" x="326" y="376">Cafe till linked to member</text>
+        <text class="s4aP" x="326" y="393">separate system, with no</text>
+        <text class="s4aP" x="326" y="408">member id on the receipt</text>
+        <text class="s4aG" x="326" y="425">releases 1</text>
+        <rect x="578" y="356" width="256" height="76" rx="8" fill="#F5F0F6" stroke="#D6C7DA"/>
+        <text class="s4aN" x="592" y="376">Per-machine equipment use</text>
+        <text class="s4aP" x="592" y="393">would need sensors fitted to</text>
+        <text class="s4aP" x="592" y="408">900 machines</text>
+        <text class="s4aG" x="592" y="425">releases 1</text>
+
+        <rect x="30" y="446" width="820" height="22" rx="6" fill="#3A2340"/>
+        <text class="s4aW" x="46" y="461">Six entities need no decision. The other six do, and the middle band is where the confident wrong answers come from.</text>
+      </svg>
+      <figcaption>🔍 Click to zoom - the released figures come off the unlock table computed on the session 3 bench, over an invented portfolio</figcaption>
+    </figure>
+
+    <div class="callout tip">
+      <p><strong>Ridgeline Fitness is constructed, and every figure on this page describes it and nothing else.</strong> Twelve candidate cases and twelve entities were written so that the mechanism being taught is visible: the arithmetic is real and was computed from the entity map before any of these pages quoted it, but the chain is not. No published rate exists for how often a real portfolio is blocked, or for how often the entity that unlocks the most turns out to be a half-filled field, so no rate is claimed anywhere in these six sessions. What transfers is the method, not the numbers.</p>
+    </div>
+
+    <details class="card" open>
+      <summary><span class="mode live">Live</span>Why held partly is the state that wastes projects<span class="mini">4 min</span><span class="caret">▶</span></summary>
+      <div class="body">
+        <p>The two honest states both produce useful conversations. "We do not have that" ends a discussion in one sentence and everybody in the room can verify it. "We have all of that" lets work start. Neither costs you a quarter.</p>
+        <p>Held partly costs you a quarter because <strong>nothing about it announces itself.</strong> The column exists in the table. The join succeeds. The count comes back non-zero. A dashboard renders. Somebody ranks the top five cancellation reasons, puts the ranking in a deck, and a retention programme gets designed around reason number one. The ranking was computed over a third of the cancellations, and the third that got a reason written down is not a random third: it is the shifts where the front desk was quiet enough to type something.</p>
+        <p>So the analysis is not noisy, which would be survivable. <strong>It is biased in a direction nobody measured, and it comes with the full confidence of a real query over real rows.</strong> That is worse than having no reason field at all, because with no field somebody would have had to go and ask members.</p>
+        <p>The other half of the story is the reason this session exists at all. Held partly is also the <strong>cheapest state to fix</strong>, because the collection route already exists and somebody is already standing in front of it. That combination, worst failure mode and lowest cost to close, is what makes the half-held entity the most valuable position on the board.</p>
+      </div>
+    </details>
+
+    <details class="card">
+      <summary><span class="mode live">Live</span>How to test which state you are actually in<span class="mini">4 min</span><span class="caret">▶</span></summary>
+      <div class="body">
+        <p>Counting nulls is the first move and it is not sufficient. A field can be 95 per cent populated and still be unusable for the question you are asking. Run all four checks before you write "held in full" next to anything.</p>
+        <p><strong>1 · Count the nulls, as a share, per year.</strong> Not overall. A field that is 80 per cent filled across five years and 20 per cent filled last year is a field somebody stopped using, and last year is the year you are about to analyse.</p>
+        <p><strong>2 · Group the non-nulls by site, team or branch.</strong> This is the check people skip and it is the one that finds the worst problems. If 90 per cent of the filled-in rows come from two of twenty-two sites, you do not have a partially filled national field. You have a complete field for two sites and an empty one for twenty, and any conclusion you draw is a conclusion about those two sites wearing a national label.</p>
+        <p><strong>3 · Group the non-nulls by time window.</strong> Same test on the other axis. Filled rows clustered into one six-month stretch usually means a manager ran a push, or an audit happened, or a system changed. Whatever the cause, the population you can analyse is that window and not your business.</p>
+        <p><strong>4 · Count the distinct values, and look at the top one.</strong> If the most common value accounts for most of the rows and it happens to be the first item in the drop-down, or "Other", or an empty string that is not technically null, then the field is not being filled in. It is being dismissed. Default values are the most convincing kind of missing data because they survive every null check you can write.</p>
+        <p>Any one of the four coming back badly means the entity is held partly, whatever the schema says. If you are unsure after running them, it is partly.</p>
+      </div>
+    </details>
+
+    <details class="card">
+      <summary><span class="mode self">Self-study</span>The same four checks, phrased as questions for somebody else's data<span class="mini">3 min</span><span class="caret">▶</span></summary>
+      <div class="body">
+        <p>You will often be gating a case against data you cannot query yourself, on a call with the team that owns it. The four checks convert into four questions that are hard to answer vaguely.</p>
+        <p><strong>"What share of rows have a value in that field, for last year only?"</strong> A confident round number here is usually an estimate. Ask for it in writing after the call.</p>
+        <p><strong>"If we split the filled rows by site, are they even?"</strong> The tell of a problem is hesitation followed by "well, the newer sites are better at it". That is the answer. Write it down.</p>
+        <p><strong>"Did anything change in how that field gets captured in the last two years?"</strong> A system migration, a new front-desk process or a compliance push all produce a time-clustered field, and the owner always remembers the event even when they have never looked at the distribution.</p>
+        <p><strong>"What are the three commonest values?"</strong> If the answer is a default, an "Other" and a blank, you have found a form problem rather than a data problem, and the fix is upstream of anything analytical.</p>
+        <p>One more, worth asking about every entity regardless of state: <strong>"who would notice if this stopped being collected tomorrow?"</strong> If the honest answer is nobody, then the field is already decaying and any plan built on it has a clock running.</p>
+      </div>
+    </details>
+  </section>
+
+  <section class="section" id="part-2">
+    <div class="section-kicker">
+      <span class="klabel">Part 2 · covers the published framework</span>
+      <h2>Somebody has done this properly, and said so carefully</h2>
+      <span class="tag concept">6 min live</span>
+    </div>
+    <p class="lede">Three states is a working simplification. There is a published scheme with far more resolution, and the useful thing about it is not the extra levels. It is the argument that readiness is a property of a dataset and a question together, never of a dataset alone.</p>
+
+    <figure class="zoomable">
+      <svg viewBox="0 0 880 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Neil Lawrence's three data readiness bands stacked from band C accessibility at the bottom through band B faithfulness to band A in context at the top, with the sub-level convention that 1 is best and 4 is worst within each band, and a footer noting that the author calls it a position paper rather than a standard.">
+        <style>
+          .s4bH { font: 800 12px Inter, sans-serif; fill: #3A2340; }
+          .s4bS { font: 400 11px Inter, sans-serif; fill: #655C6A; }
+          .s4bT { font: 800 12px Inter, sans-serif; fill: #FFFFFF; }
+          .s4bW { font: 400 10.5px Inter, sans-serif; fill: #F5F0F6; }
+          .s4bD { font: 700 11px Inter, sans-serif; fill: #3A2340; }
+          .s4bG { font: 800 10px Inter, sans-serif; fill: #5F4A0D; }
+        </style>
+
+        <text class="s4bH" x="30" y="24">THREE BANDS, READ FROM THE BOTTOM</text>
+        <text class="s4bS" x="320" y="24">within each band, sub-level 1 is best and 4 is worst</text>
+
+        <rect x="30" y="42" width="520" height="66" rx="9" fill="#3A2340"/>
+        <text class="s4bT" x="46" y="66">BAND A · in context</text>
+        <text class="s4bW" x="46" y="86">Is this data appropriate for THIS question, with the</text>
+        <text class="s4bW" x="46" y="101">variables and the population the question needs?</text>
+        <rect x="562" y="42" width="288" height="66" rx="9" fill="#F5F0F6" stroke="#D6C7DA"/>
+        <text class="s4bG" x="576" y="66">the most useful idea in the paper</text>
+        <text class="s4bD" x="576" y="86">one dataset can be A1 for one</text>
+        <text class="s4bD" x="576" y="101">question and only B1 for another</text>
+
+        <rect x="30" y="118" width="520" height="66" rx="9" fill="#4E2F55"/>
+        <text class="s4bT" x="46" y="142">BAND B · faithfulness</text>
+        <text class="s4bW" x="46" y="162">Does what was recorded match what it claims to</text>
+        <text class="s4bW" x="46" y="177">record? Missing values and noise live here.</text>
+        <rect x="562" y="118" width="288" height="66" rx="9" fill="#F5F0F6" stroke="#D6C7DA"/>
+        <text class="s4bG" x="576" y="142">where a half-filled field sits</text>
+        <text class="s4bD" x="576" y="162">the file opens, the column is</text>
+        <text class="s4bD" x="576" y="177">there, and it is not faithful</text>
+
+        <rect x="30" y="194" width="520" height="66" rx="9" fill="#6B4372"/>
+        <text class="s4bT" x="46" y="218">BAND C · accessibility</text>
+        <text class="s4bW" x="46" y="238">Is it machine-readable and ethically cleared at all?</text>
+        <text class="s4bW" x="46" y="253">C4 is hearsay: nobody has verified it exists.</text>
+        <rect x="562" y="194" width="288" height="66" rx="9" fill="#F5F0F6" stroke="#D6C7DA"/>
+        <text class="s4bG" x="576" y="218">the band most plans assume away</text>
+        <text class="s4bD" x="576" y="238">"we have that somewhere" is a</text>
+        <text class="s4bD" x="576" y="253">claim at C4 until somebody looks</text>
+
+        <rect x="30" y="272" width="820" height="52" rx="9" fill="#F5F0F6" stroke="#D6C7DA"/>
+        <text class="s4bD" x="46" y="294">Its author calls this a position paper meant "to trigger a discussion", not a finished or adopted standard.</text>
+        <text class="s4bD" x="46" y="314">Held, partly and not held is a deliberate simplification of it, and not an implementation of it.</text>
+      </svg>
+      <figcaption>🔍 Click to zoom - the bands are the published scheme; the right-hand column is how the three working states map onto it</figcaption>
+    </figure>
+
+    <div class="callout tip">
+      <p><strong>Use it, do not dress it up.</strong> Neil Lawrence's "Data Readiness Levels" is explicitly a position paper, offered by its author to trigger a discussion rather than as a finished or adopted standard. It should be cited that way. If you present it in a steering meeting as an industry standard somebody will check, and when they find it is a proposal your credibility takes the hit rather than the framework's. Equally, the three states on the session 3 bench are a deliberate simplification of it and not an implementation: they compress two of the three bands into one word, which is fine for gating a portfolio in an afternoon and is not fine as a substitute for reading the original.</p>
+    </div>
+
+    <details class="card">
+      <summary><span class="mode live">Live</span>Band A is the one to take away: readiness is a pair, not a property<span class="mini">4 min</span><span class="caret">▶</span></summary>
+      <div class="body">
+        <p>The single most useful claim in the paper is that a dataset does not have a readiness level. A dataset and a question have a readiness level, together. The same rows can be fully ready for one question and only halfway ready for the next one, with nothing about the data having changed.</p>
+        <p>Ridgeline's membership records make the point. For "how many members do we have per site, month by month", those records are as ready as data gets: complete, agreed, machine-readable, and containing exactly the variables the question needs. For "why did this site's retention drop", the very same records are not ready at all, because the question needs a reason and the reason lives in a different field that is a third full. Nobody moved the data. The question moved.</p>
+        <p>This is why "is our data ready" is an unanswerable question and a slightly dangerous one, since it invites a yes. <strong>The answerable version always names a question: is this data ready for that.</strong> It is also why a data-quality programme with no use case attached tends to spend money improving band B on entities nobody was going to ask anything about.</p>
+        <p>The practical form of this for the rest of tonight: when you mark an entity on your map, mark it against the case that needs it. The same entity can legitimately be held in full for one case on your list and held partly for another, and a map that cannot express that is hiding the finding.</p>
+      </div>
+    </details>
+
+    <details class="card">
+      <summary><span class="mode self">Self-study</span>What the three-state simplification loses, and when to reach for the full scheme<span class="mini">3 min</span><span class="caret">▶</span></summary>
+      <div class="body">
+        <p>Three states buys speed. You can gate a twelve-case portfolio in an afternoon with a whiteboard, and the gate output is unarguable enough to survive a planning meeting. What it loses is worth naming, so you know when to stop using it.</p>
+        <p><strong>It merges two very different kinds of failure.</strong> "We cannot legally use this" and "this field is a third full" both collapse into held partly, and they are not the same problem: one is a permission question with a legal owner, the other is a form. The full scheme separates them by band, which is exactly the resolution you want once you are actually planning the fix rather than gating the case.</p>
+        <p><strong>It has no room for degree.</strong> A field 90 per cent full and a field 5 per cent full are both partly, which is the right call for a gate and the wrong call for an estimate.</p>
+        <p><strong>It is silent about the question,</strong> which is the band A insight above. Three states invites you to write one label per entity for the whole portfolio, and that label will be wrong for some case on the list.</p>
+        <p>The honest division of labour: use three states to gate the portfolio, then use the bands to describe the specific gap you have decided to close, and read the original paper before quoting it at anybody.</p>
+      </div>
+    </details>
+  </section>
+
+  <section class="section" id="part-3">
+    <div class="section-kicker">
+      <span class="klabel">Part 3 · covers what kind of work a gap is</span>
+      <h2>A form change, a pipeline change, or a standing job</h2>
+      <span class="tag concept">6 min live</span>
+    </div>
+    <p class="lede">Knowing what an entity would release tells you whether the gap is worth closing. It tells you nothing about what closing it costs, and the cost question has three answers that are not on the same scale. Two of them are projects. One of them is a headcount.</p>
+
+    <table class="clean">
+      <tr><th>The gap</th><th>What kind of work</th><th>Releases</th><th>Why it lands there</th></tr>
+      <tr><td><strong>Cancellation reason</strong><br>partly, filled about a third of the time</td><td><strong>Form change</strong></td><td><strong>3</strong></td><td>The field exists, the person is already standing at the screen, and the fix is to make it required with a short pick list instead of free text. Finite, and it improves from the day it ships</td></tr>
+      <tr><td><strong>Member goals at intake</strong><br>partly, on paper, never keyed in</td><td><strong>Form change</strong></td><td>2</td><td>Already being collected, just not into a system. Moving the paper question onto the signup screen is a change to one flow, plus a decision about whether to backfill the paper</td></tr>
+      <tr><td><strong>Injury and incident log</strong><br>partly, a paper folder per site</td><td><strong>Form change</strong></td><td>1</td><td>Same shape as the one above and with a compliance owner already attached, which usually makes it easier to get agreed and slower to get built</td></tr>
+      <tr><td><strong>Cafe till linked to member</strong><br>not held, separate system, no member id</td><td><strong>Pipeline change</strong></td><td>1</td><td>Both systems already hold their half. Nobody has to collect anything new; somebody has to carry an identifier across a boundary. Bigger than a form and still finite</td></tr>
+      <tr><td><strong>Competitor pricing</strong> and <strong>per-machine equipment use</strong><br>neither held at all</td><td><strong>Standing job</strong></td><td>2 and 1</td><td>Pricing is somebody checking twenty-two local markets, forever, or it goes stale in a month. Sensors on 900 machines is a capital programme and then a feed to maintain, forever. Neither has a finish line</td></tr>
+    </table>
+
+    <figure class="zoomable">
+      <svg viewBox="0 0 880 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Two different rankings of the same six data gaps. On the left they are ordered by how much revenue fit finishing them would release, with the cancellation reason highest at 3. On the right they are grouped by what kind of work closing them is: form change, pipeline change, or standing job. The orders do not match.">
+        <style>
+          .s4cH { font: 800 12px Inter, sans-serif; fill: #3A2340; }
+          .s4cS { font: 400 11px Inter, sans-serif; fill: #655C6A; }
+          .s4cL { font: 700 11px Inter, sans-serif; fill: #3A2340; }
+          .s4cV { font: 800 11px Inter, sans-serif; fill: #5F4A0D; }
+          .s4cT { font: 800 11.5px Inter, sans-serif; fill: #FFFFFF; }
+          .s4cW { font: 400 10.5px Inter, sans-serif; fill: #F5F0F6; }
+          .s4cD { font: 800 11.5px Inter, sans-serif; fill: #3A2340; }
+          .s4cP { font: 400 10.5px Inter, sans-serif; fill: #3A2340; }
+          .s4cG { font: 800 10px Inter, sans-serif; fill: #5F4A0D; }
+        </style>
+
+        <text class="s4cH" x="30" y="24">TWO RANKINGS OF THE SAME SIX GAPS</text>
+        <text class="s4cS" x="320" y="24">you need both, and they do not agree</text>
+
+        <rect x="30" y="42" width="400" height="314" rx="9" fill="#F5F0F6" stroke="#D6C7DA"/>
+        <text class="s4cH" x="46" y="66">RANKED BY FIT RELEASED</text>
+
+        <text class="s4cL" x="46" y="97">Cancellation reason</text>
+        <rect x="256" y="86" width="102" height="14" rx="4" fill="#8A6A12"/>
+        <text class="s4cV" x="366" y="97">3</text>
+
+        <text class="s4cL" x="46" y="137">Member goals at intake</text>
+        <rect x="256" y="126" width="68" height="14" rx="4" fill="#6B4372"/>
+        <text class="s4cV" x="332" y="137">2</text>
+
+        <text class="s4cL" x="46" y="177">Competitor pricing</text>
+        <rect x="256" y="166" width="68" height="14" rx="4" fill="#6B4372"/>
+        <text class="s4cV" x="332" y="177">2</text>
+
+        <text class="s4cL" x="46" y="217">Injury and incident log</text>
+        <rect x="256" y="206" width="34" height="14" rx="4" fill="#D6C7DA"/>
+        <text class="s4cV" x="298" y="217">1</text>
+
+        <text class="s4cL" x="46" y="257">Cafe till to member id</text>
+        <rect x="256" y="246" width="34" height="14" rx="4" fill="#D6C7DA"/>
+        <text class="s4cV" x="298" y="257">1</text>
+
+        <text class="s4cL" x="46" y="297">Per-machine equipment use</text>
+        <rect x="256" y="286" width="34" height="14" rx="4" fill="#D6C7DA"/>
+        <text class="s4cV" x="298" y="297">1</text>
+
+        <text class="s4cS" x="46" y="334">This column is the value question, and it is the</text>
+        <text class="s4cS" x="46" y="349">one the session 3 bench computes for you.</text>
+
+        <rect x="450" y="42" width="400" height="314" rx="9" fill="#F5F0F6" stroke="#D6C7DA"/>
+        <text class="s4cH" x="466" y="66">RANKED BY KIND OF WORK</text>
+
+        <rect x="466" y="78" width="368" height="80" rx="8" fill="#D6C7DA"/>
+        <text class="s4cD" x="480" y="100">FORM CHANGE · cheap and finite</text>
+        <text class="s4cP" x="480" y="119">Cancellation reason 3, member goals 2, injury log 1</text>
+        <text class="s4cG" x="480" y="140">releases 6 between them, all already being recorded</text>
+
+        <rect x="466" y="168" width="368" height="80" rx="8" fill="#6B4372"/>
+        <text class="s4cT" x="480" y="190">PIPELINE CHANGE · bigger, still finite</text>
+        <text class="s4cW" x="480" y="209">Cafe till linked to member id</text>
+        <text class="s4cW" x="480" y="230">releases 1; both systems already hold their half</text>
+
+        <rect x="466" y="258" width="368" height="90" rx="8" fill="#4E2F55"/>
+        <text class="s4cT" x="480" y="280">STANDING JOB · never finishes</text>
+        <text class="s4cW" x="480" y="299">Competitor pricing 2, per-machine use 1</text>
+        <text class="s4cW" x="480" y="318">releases 3, and the cost is a headcount</text>
+        <text class="s4cW" x="480" y="337">rather than a project with an end date</text>
+
+        <rect x="30" y="366" width="820" height="26" rx="6" fill="#3A2340"/>
+        <text class="s4cW" x="46" y="383">Member goals and competitor pricing both release 2. One is a question on the signup screen; the other is somebody's job forever.</text>
+      </svg>
+      <figcaption>🔍 Click to zoom - the left ranking decides what is worth closing, the right one decides what you are actually agreeing to</figcaption>
+    </figure>
+
+    <details class="card">
+      <summary><span class="mode live">Live</span>Why the two rankings have to be read together<span class="mini">4 min</span><span class="caret">▶</span></summary>
+      <div class="body">
+        <p>Read the value ranking alone and you get a sensible-looking order: finish the cancellation reason, then member goals or competitor pricing, then the three ones. Two of those four top entries are not the same kind of commitment at all.</p>
+        <p><strong>Member goals and competitor pricing both release 2.</strong> On a value ranking they tie. Member goals is a question that already gets asked on paper at signup, moved onto the screen the person is already looking at: one flow changed, one decision about backfill, done. Competitor pricing is somebody visiting twenty-two local markets and writing down what the gyms across the road charge, and then doing it again next month because a pricing table that is six months old is worse than no pricing table, since it will be used with confidence.</p>
+        <p>Read the kind-of-work ranking alone and you get the opposite error: you do all the cheap things first regardless of whether they release anything, and a quarter later the board asks what changed and the answer is that three forms are tidier.</p>
+        <p>The combination is what produces a decision, and on this board it produces a clear one. <strong>Everything in the form-change group releases 6 between them and every one of those three entities is already being collected.</strong> Nothing in the standing-job group can be started without somebody agreeing to a permanent cost, and the best of them releases less than the single best form change. That is the shape to look for on your own map, and it is common enough to be worth checking for first.</p>
+      </div>
+    </details>
+
+    <details class="card">
+      <summary><span class="mode self">Self-study</span>How a standing job gets agreed to without anybody deciding<span class="mini">3 min</span><span class="caret">▶</span></summary>
+      <div class="body">
+        <p>Nobody signs off a permanent headcount for a data field. It arrives sideways, and there are three reliable routes.</p>
+        <p><strong>It enters as a project line.</strong> "Competitor price benchmarking" appears in a plan with an effort estimate of four weeks. That estimate is honest about the build and silent about the refresh, because the refresh is not a build. Four weeks buys you one snapshot and a decaying asset. The question that catches it is not "how long will this take" but <strong>"what happens to this in month seven"</strong>.</p>
+        <p><strong>It enters as somebody's goodwill.</strong> An analyst starts maintaining the spreadsheet because they need it for their own work. It becomes load-bearing, and then they leave. This is the commonest version and the hardest to see, because while it is working it looks free.</p>
+        <p><strong>It enters attached to a piece of capital.</strong> Sensors on 900 machines is a purchase, which means it gets scrutinised as capital and approved or not. What rarely gets costed in the same paper is the feed: calibration, failures, the site where they get unplugged, and the person who notices when the data stops arriving. Hardware makes the standing job invisible by giving everybody a big number to argue about instead.</p>
+        <p>None of this makes standing jobs wrong. Some are obviously worth it, and a business whose whole strategy is price position should absolutely have somebody watching competitor prices. The rule is only that it should be <strong>chosen as an ongoing commitment, by somebody who can commit to it,</strong> rather than absorbed as a line item on a roadmap.</p>
+      </div>
+    </details>
+
+    <div class="tryrow" data-fn="wordcount" data-multiline="1" data-title="Classify your biggest gap before you agree to it" data-hint="Take the entity that would release the most on your list. Write what kind of work closing it is, and if it is a standing job, name who would still be doing it in month seven." data-seed="" data-cta="Count it"></div>
+  </section>
+
+  <section class="section" id="demo-1">
+    <div class="section-kicker">
+      <span class="klabel">Build-along</span>
+      <h2>Your entity map, gated and priced</h2>
+      <span class="tag demo">★ 22 min · bring the map from session 3</span>
+    </div>
+    <p class="lede">Five stages on the map you brought. You should finish with every partial entity tested rather than assumed, a released figure against each gap, a kind-of-work label on each, and one name to say out loud on Monday.</p>
+
+    <div class="tick" data-stages="Mark all three states|Test how each partial one is partial|Count what each would release|Label the kind of work|Pick the best ratio and name it" data-title="Five stages on your own entity map" data-foot="The output is one sentence: the entity that releases the most on our list is X, closing it is a form change, and nobody has asked for it. That sentence is the most useful thing you will carry out of these six sessions, because it is both the biggest win available and the cheapest.">
+      <p class="tick-note" data-stage="0"><b>Mark each entity held in full, held partly, or not held at all,</b> and do it against a named case rather than in general. The same entity can be held in full for one case on your list and held partly for another, and if your map cannot express that, widen the map rather than picking one label. Be harsh about the middle state: "we have that field" is not "that field is filled in".</p>
+      <p class="tick-note" data-stage="1"><b>For each partial entity, test how it is partial,</b> because the four ways fail differently. Count the nulls as a share and per year. Group the non-nulls by site or team, which is the check that finds the worst surprises. Group them by time window. Then look at the commonest value and ask whether it is a default, an "Other" or a blank string. Write down which of the four it failed, in a few words, next to the entity.</p>
+      <p class="tick-note" data-stage="2"><b>Compute what each gap would release, by counting the blocked cases behind it.</b> Walk your candidate list and, for each entity, tally the cases that would clear the gate if that one entity were held in full, along with whatever value score you use. This is a pass over the whole list per entity, it takes about ten minutes for a dozen cases, and it is the only way the released figure means anything. Do not estimate it from memory: the entity you expect to win frequently does not.</p>
+      <p class="tick-note" data-stage="3"><b>Label each gap form change, pipeline change or standing job,</b> using the test rather than the feeling. Is the data already being recorded somewhere, including on paper? Form change. Do two systems each already hold their half? Pipeline change. Would somebody have to start collecting something new and keep collecting it? Standing job, and write the name of the person or team who would still be doing it in month seven.</p>
+      <p class="tick-note" data-stage="4"><b>Pick the best released-value-to-kind-of-work ratio and name it out loud.</b> Rank by released value, then cross out everything labelled standing job that releases less than your best form change. What is left at the top is usually a field somebody is already half-filling. Say its name in the next planning meeting, along with what it would unblock, because it will not appear on any roadmap by itself: nobody ever asks for a required field.</p>
+    </div>
+
+    <div class="callout tip">
+      <p><strong>If your best gap turns out to be a standing job.</strong> It happens, and it is a real answer rather than a failure of the exercise. Some businesses genuinely need a permanent collection effort for the thing that matters most to them, and price-led businesses are the obvious case. What changes is who has to agree: a form change is a decision for whoever owns the flow, while a standing job is a decision for whoever owns a budget line, and taking it to the first person because they are easier to reach is how a headcount gets absorbed instead of chosen.</p>
+    </div>
+  </section>
+
+  <section class="section" id="exercise">
+    <div class="section-kicker">
+      <span class="klabel">Homework</span>
+      <h2>Before session 5</h2>
+      <span class="tag exercise">30 min</span>
+    </div>
+    <ol>
+      <li><strong>Run the four partial tests for real</strong> on your single most important half-held field, or get somebody to run them and send you the numbers. The share filled for last year only, the split by site or team, the split by time window, and the top three values. Most people find at least one of the four comes back worse than they expected.</li>
+      <li><strong>Write the released figure next to every gap on your map,</strong> counted by walking the candidate list rather than guessed. Then check whether the entity at the top is one anybody has ever asked for. Usually it is not, and that gap between what unlocks value and what gets requested is the finding to bring back.</li>
+      <li><strong>Label each gap form change, pipeline change or standing job,</strong> and for every standing job write one sentence naming who would still be doing it in month seven. If you cannot name a person, the job has not actually been agreed to yet, whatever the plan says.</li>
+      <li><strong>Take your top form change to whoever owns that flow</strong> and ask what it would take to make the field required, with a pick list instead of free text. Bring their answer to session 5, along with your list of what clears, because session 5 sequences the survivors against how the business makes money.</li>
+    </ol>
+  </section>
+
+  <section class="section" id="quiz">
+    <div class="section-kicker">
+      <span class="klabel">Check yourself</span>
+      <h2>Three questions</h2>
+    </div>
+    <p>Clear all three and session 4 gets stamped in your passport.</p>
+
+    <div class="quiz-q" data-answer="1">
+      <p class="qtext">1 · A cancellation reason field is 95 per cent populated, and 90 per cent of the filled rows come from two of the chain's twenty-two sites. What state is that entity in?</p>
+      <button class="qopt" type="button">A · Held in full, since only 5 per cent of rows are missing a value</button>
+      <button class="qopt" type="button">B · Held partly - it is a complete field for two sites and an effectively empty one for twenty, so any national conclusion drawn from it is a conclusion about those two sites wearing a national label</button>
+      <button class="qopt" type="button">C · Not held at all, because the field cannot be used</button>
+      <button class="qopt" type="button">D · Held in full for reporting and held partly for prediction</button>
+      <p class="qwhy">This is why counting nulls is the first check and not the only one. A null count of 5 per cent looks like a healthy field and the grouping check is what exposes it. D is tempting because readiness really does depend on the question, but the problem here is the population rather than the question: the field fails for any question about the chain as a whole.</p>
+    </div>
+
+    <div class="quiz-q" data-answer="3">
+      <p class="qtext">2 · Two gaps on the unlock table both release 2: member goals at intake, already collected on paper at signup, and competitor pricing, which nobody collects. How should that tie be read?</p>
+      <button class="qopt" type="button">A · As a tie, so pick whichever the business finds more interesting</button>
+      <button class="qopt" type="button">B · As a reason to prefer competitor pricing, since new data is worth more than tidying up old data</button>
+      <button class="qopt" type="button">C · As a reason to do both, since together they release 4</button>
+      <button class="qopt" type="button">D · As two different kinds of commitment that a value ranking cannot separate - one is a question moved onto a screen somebody is already looking at, the other is a permanent collection effort whose cost is a headcount rather than a project</button>
+      <p class="qwhy">The released figure answers what is worth closing and says nothing about what closing it costs, which is why both rankings are needed. C is the answer that gets a standing job absorbed without anybody deciding: it reads the tie as an argument for scope rather than as a question about what kind of work each one is.</p>
+    </div>
+
+    <div class="quiz-q" data-answer="0">
+      <p class="qtext">3 · Somebody asks whether the membership records are "ready". What does the published readiness scheme suggest about that question?</p>
+      <button class="qopt" type="button">A · That it is unanswerable as asked, because readiness belongs to a dataset and a question together - the same records can be fully ready for a count per site and not ready at all for why retention dropped, with nothing about the data having changed</button>
+      <button class="qopt" type="button">B · That it is answerable once you know the null rate and the schema</button>
+      <button class="qopt" type="button">C · That readiness is an adopted industry standard with a certification process</button>
+      <button class="qopt" type="button">D · That the records should be graded once and the grade reused across the whole portfolio</button>
+      <p class="qwhy">The band A idea is the most useful part of the scheme and the one that changes behaviour: mark each entity against a named case, not in general. C is wrong twice over, since the author presents the scheme explicitly as a position paper meant to trigger a discussion rather than as a finished or adopted standard. D is exactly the habit the band A argument is written against.</p>
+    </div>
+
+    <p class="quiz-score"></p>
+  </section>
+
+  <section class="section" id="official">
+    <div class="section-kicker">
+      <span class="klabel">Sources covered</span>
+      <h2>What this session teaches, and where it came from</h2>
+    </div>
+    <div class="covered">
+      <div class="covered-row"><span class="status pill solid">✓</span><span class="name">Every released figure and count on this page</span><span class="note">Computed from the entity-availability map before any page quoted them: a gate check per case and an unlock pass over all twelve candidates. Six entities held in full, three partly, three not at all</span></div>
+      <div class="covered-row"><span class="status pill light">◐</span><span class="name">Ridgeline Fitness, its twelve cases and twelve entities</span><span class="note">Constructed. Written so the mechanism is visible. The arithmetic is real, the chain is not, and every figure describes this portfolio only</span></div>
+      <div class="covered-row"><span class="status pill solid">✓</span><span class="name">Data Readiness Levels: the three bands and the sub-level convention</span><span class="note">Primary source read directly in this build. Its author's own caveat is stated on the page: he calls it a position paper meant to trigger a discussion, not a finished or adopted standard</span></div>
+      <div class="covered-row"><span class="status pill light">◐</span><span class="name">Held, partly, not at all as a readiness scheme</span><span class="note">A deliberate simplification of the published bands, said plainly rather than implied. It merges two kinds of failure and has no room for degree, both noted on the page</span></div>
+      <div class="covered-row"><span class="status pill light">◐</span><span class="name">How often a portfolio is blocked, or unlocked by a half-filled field</span><span class="note">Not claimed. No published rate was found for either, so none is stated. The mechanism is demonstrated on invented data and asserts nothing about businesses in general</span></div>
+    </div>
+    <p class="mono" style="margin-top:14px">Every fact on this page, and its verification tier, is recorded in the course's source map.</p>
+  </section>
+
+  <section class="cheat" id="cheatsheet">
+    <h3>Session 4 cheat sheet <span>· pin this</span></h3>
+    <div class="grid-2">
+      <div class="cheat-item"><b>Two honest states, one dangerous one</b><span>Partly is in the schema and the query runs.</span></div>
+      <div class="cheat-item"><b>Nulls, sites, window, top value</b><span>Four tests. Any one failing means partly.</span></div>
+      <div class="cheat-item"><b>A default is missing data</b><span>It survives every null check you can write.</span></div>
+      <div class="cheat-item"><b>Readiness is a pair</b><span>A dataset and a question, never a dataset alone.</span></div>
+      <div class="cheat-item"><b>Form, pipeline, standing job</b><span>Two are projects. One is a headcount.</span></div>
+      <div class="cheat-item"><b>Nobody ever asks for a required field</b><span>Which is why the biggest unlock is never on the roadmap.</span></div>
+    </div>
+  </section>
+
+  <div class="callout next">
+    <span class="nx-pill">Next session</span>
+    <p>You now have a map where every gap carries a released figure and a kind-of-work label, which tells you what is possible and what it costs. It still does not tell you what any of it is worth, because that depends on something outside the data entirely. Session 5 is the second gate: why the same use case is worth different amounts at different businesses, and why a case that pays handsomely at one company is a rounding error at the company across the road with the same data. It also takes apart the failure-rate statistics people quote to justify roadmaps, because you will be handed at least one of them and none of them survives being looked up.</p>
+  </div>
+
+  <footer class="pagefoot">
+    <span>Session 4 of 6 · learn-ship-playbook-with-phoebe · by Phoebe Fu &nbsp;·&nbsp; 📚 <a href="https://phoebefu6.github.io/learn-with-phoebe/">Learn with Phoebe ↗</a></span>
+    <span><a href="03-the-verdict-bench.html">← Prev: The verdict bench</a> &nbsp;·&nbsp; <a href="05-the-revenue-model-decides.html">Next: The revenue model decides →</a></span>
+  </footer>
+
+</main>
+
+<script src="../assets/app.js?v=1"></script>
+</body>
+</html>
